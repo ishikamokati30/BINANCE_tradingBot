@@ -174,3 +174,7 @@ Set `LOG_LEVEL=DEBUG` in `.env` (or pass `--verbose`) to also capture raw reques
 - Quantity precision is set to 3 decimal places (0.001 minimum). Production use requires fetching `LOT_SIZE` filter from `/fapi/v1/exchangeInfo`.
 - TWAP places MARKET slices (no passive limit prices) to guarantee fill on testnet.
 - Network retries use exponential back-off (max 3 attempts, starting at 1.5 s).
+
+## Validation
+<img width="1321" height="622" alt="image" src="https://github.com/user-attachments/assets/a35340bb-9025-4114-b6eb-c8080e4e6f57" />
+
